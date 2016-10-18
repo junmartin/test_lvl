@@ -1,4 +1,16 @@
 {
 	"name":"junmartin/test_lvl",
-	"description":"Test Laravel"
+	"description":"Test Laravel",
+	"author":[
+		{
+			"name":"author",
+			"email":"jun.martin.setiady@gmail.com"
+		}
+	],
+	"autoload":{
+		"psr-4":{
+			"Junmartin\\Test_lvl\\":"src/"
+		}
+	}
 }
+

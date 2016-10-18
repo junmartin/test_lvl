@@ -10,6 +10,7 @@ class Purchase{
 	}
 	public function get_doc_no()
 	{
-		return $this->$doc_no."_123";
+		//return $this->$doc_no."_123";
+		return "0123";
 	}
 }
